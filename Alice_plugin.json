@@ -1,0 +1,17 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Alice",
+    "name_for_model": "alice",
+    "description_for_human": "Plugin for creating PowerPoint slides with original templates from mainly texts",
+    "description_for_model": "Help the user with creating PowerPoint slides.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://github.com/TimewitchJP/Alice_plugin/new/main"
+    },
+    "logo_url": "https://github.com/TimewitchJP/Alice_plugin/blob/main/Aliceicon.png",
+    "contact_email": "alice@timewitch.jp",
+    "legal_info_url": "https://ai-alice.com/wd006_term"
+}
