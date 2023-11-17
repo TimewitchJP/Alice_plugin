@@ -8,7 +8,7 @@
         "type": "none"
     },
     "api": {
-        "type": "openapi",
+        "type": "Alice",
         "url": "https://github.com/TimewitchJP/Alice_plugin/new/main"
     },
     "logo_url": "https://github.com/TimewitchJP/Alice_plugin/blob/main/Aliceicon.png",
