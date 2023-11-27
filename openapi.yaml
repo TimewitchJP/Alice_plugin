@@ -4,7 +4,7 @@ info:
     description: Post text to slide generation system.
     version: "v1"
 servers:
-    - url: PLUGIN_HOSTNAME
+    - url: https://ai-alice.com/
 paths:
     /textsend:
         post:
@@ -17,37 +17,36 @@ paths:
                         schema:
                             type: object
                             properties:
-                                param1:
+                                userid:
                                     type: string
                                     description: Description of param1.
-                                param2:
+                                inputid:
                                     type: string
                                     description: Description of param2.
-                                param3:
+                                text:
                                     type: string
                                     description: Description of param3.
-                                param4:
+                                output:
                                     type: string
                                     description: Description of param4.
-                                param5:
+                                title:
                                     type: string
                                     description: Description of param5.
-                                param6:
+                                conclusion:
                                     type: string
                                     description: Description of param6.
-                                param7:
+                                userstatus:
                                     type: string
                                     description: Description of param7.
-                                param8:
+                                slideimage:
                                     type: string
                                     description: Description of param8.
-            responses:
-                "200":
-                    description: OK
-    /teams:
-        get:
-            operationId: getTeams
-            summary: Retrieves all teams for the current season.
+                                sub_slideimage:
+                                    type: string
+                                    description: Description of param8.
+                                language:
+                                    type: string
+                                    description: Description of param8.
             responses:
                 "200":
                     description: OK
