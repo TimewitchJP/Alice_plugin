@@ -1,0 +1,53 @@
+openapi: 3.0.1
+info:
+    title: Alice
+    description: Post text to slide generation system.
+    version: "v1"
+servers:
+    - url: PLUGIN_HOSTNAME
+paths:
+    /textsend:
+        post:
+            operationId: postText
+            summary: Accepts text data for slide generation.
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            type: object
+                            properties:
+                                param1:
+                                    type: string
+                                    description: Description of param1.
+                                param2:
+                                    type: string
+                                    description: Description of param2.
+                                param3:
+                                    type: string
+                                    description: Description of param3.
+                                param4:
+                                    type: string
+                                    description: Description of param4.
+                                param5:
+                                    type: string
+                                    description: Description of param5.
+                                param6:
+                                    type: string
+                                    description: Description of param6.
+                                param7:
+                                    type: string
+                                    description: Description of param7.
+                                param8:
+                                    type: string
+                                    description: Description of param8.
+            responses:
+                "200":
+                    description: OK
+    /teams:
+        get:
+            operationId: getTeams
+            summary: Retrieves all teams for the current season.
+            responses:
+                "200":
+                    description: OK
