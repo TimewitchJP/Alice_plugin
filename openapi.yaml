@@ -19,34 +19,19 @@ paths:
                             properties:
                                 userid:
                                     type: string
-                                    description: Description of param1.
-                                inputid:
-                                    type: string
-                                    description: Description of param2.
+                                    description: user's email.
                                 text:
                                     type: string
-                                    description: Description of param3.
-                                output:
-                                    type: string
-                                    description: Description of param4.
+                                    description: Text which the user wants to input as a body part of slide.
                                 title:
                                     type: string
-                                    description: Description of param5.
+                                    description: Text which the user wants to input as a title of slide.
                                 conclusion:
                                     type: string
-                                    description: Description of param6.
-                                userstatus:
-                                    type: string
-                                    description: Description of param7.
-                                slideimage:
-                                    type: string
-                                    description: Description of param8.
-                                sub_slideimage:
-                                    type: string
-                                    description: Description of param8.
+                                    description: Text which the user wants to input as a conclusion of slide.
                                 language:
                                     type: string
-                                    description: Description of param8.
+                                    description: Language used in a slide.
             responses:
                 "200":
                     description: OK
